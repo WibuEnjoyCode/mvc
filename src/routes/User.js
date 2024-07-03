@@ -1,9 +1,9 @@
-import express from 'express'
-import { GetAllUsers, GetUser } from '../controllers/User.controller.js'
+import express from "express";
+import { GetAllUsers, GetUserById } from "../controllers/User.controller.js";
 
-const routerUser = express.Router()
+const routerUser = express.Router();
 
-routerUser.get('/user', GetAllUsers)
-routerUser.get('/user/:id', GetUser)
+routerUser.get("/user", GetAllUsers);
+routerUser.get("/user/:id", GetUserById);
 
-export { routerUser }
+export { routerUser };
