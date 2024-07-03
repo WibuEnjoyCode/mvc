@@ -1,0 +1,17 @@
+{
+  "name": "mvc",
+  "version": "1.0.0",
+  "description": "learn mvc",
+  "main": "./src/main.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon ."
+  },
+  "author": "WibuEnjoyCode",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}
